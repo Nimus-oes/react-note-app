@@ -1,0 +1,16 @@
+.topDeskNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.sideDeskNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomMobNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

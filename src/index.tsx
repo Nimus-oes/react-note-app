@@ -4,12 +4,31 @@ import "./index.css";
 import App from "./App.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import NoteList from "./pages/NoteList.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    Component: App,
     errorElement: <NotFound />,
+    children: [
+      {
+        index: true,
+        Component: NoteList,
+      },
+      {
+        path: "all",
+        Component: NoteList,
+      },
+      {
+        path: "archived",
+        Component: NoteList,
+      },
+      {
+        path: ":tag",
+        Component: NoteList,
+      },
+    ],
   },
 ]);
 

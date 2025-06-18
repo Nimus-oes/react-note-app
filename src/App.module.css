@@ -1,0 +1,9 @@
+.desktopLayout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.topDeskNav {
+  flex-grow: 1;
+}
