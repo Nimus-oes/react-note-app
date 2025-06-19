@@ -1,0 +1,10 @@
+.topNavWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchSettingWrapper {
+  display: flex;
+  flex-direction: row;
+}

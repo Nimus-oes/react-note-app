@@ -1,0 +1,5 @@
+.noteWrapper,
+.tagWrapper {
+  display: flex;
+  flex-direction: column;
+}

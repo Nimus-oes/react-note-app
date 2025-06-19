@@ -1,0 +1,8 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightWrapper {
+  flex-grow: 1;
+}
