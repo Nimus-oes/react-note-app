@@ -1,6 +1,6 @@
 import DesktopLayout from "../layout/desktop-layout";
 import MobileLayout from "../layout/mobile-layout";
-import { useIsMobile } from "./useIsMobile";
+import { useIsMobile } from "../hooks/useIsMobile";
 
 export default function App() {
   const isMobile = useIsMobile();

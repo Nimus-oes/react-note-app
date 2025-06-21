@@ -8,17 +8,33 @@ react-note-app
 ├─ package.json
 ├─ public
 ├─ src
-│  ├─ App.css
-│  ├─ App.tsx
+│  ├─ app
+│  │  ├─ app.module.css
+│  │  ├─ app.tsx
+│  │  ├─ index.css
+│  │  ├─ index.tsx
+│  │  └─ useIsMobile.tsx
 │  ├─ assets
 │  ├─ components
-│  │  └─ NavBar.tsx
-│  ├─ index.css
-│  ├─ index.tsx
+│  ├─ features
+│  │  ├─ notes
+│  │  ├─ tags
+│  │  ├─ ui
+│  │  └─ user
+│  ├─ layout
+│  │  ├─ desktop-layout.module.css
+│  │  ├─ desktop-layout.tsx
+│  │  ├─ mobile-layout.tsx
+│  │  └─ nav
+│  │     ├─ app-header.tsx
+│  │     ├─ desktop-nav-side.module.css
+│  │     ├─ desktop-nav-side.tsx
+│  │     ├─ desktop-nav-top.module.css
+│  │     ├─ desktop-nav-top.tsx
+│  │     └─ mobile-nav-bottom.tsx
 │  ├─ pages
-│  │  ├─ NotFound.tsx
-│  │  ├─ NoteDetail.tsx
-│  │  └─ NoteList.tsx
+│  │  ├─ not-found.module.css
+│  │  └─ not-found.tsx
 │  └─ vite-env.d.ts
 ├─ tsconfig.app.json
 ├─ tsconfig.json

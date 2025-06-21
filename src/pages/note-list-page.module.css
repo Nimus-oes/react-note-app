@@ -1,0 +1,12 @@
+.desktopContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktopNoteList {
+  flex-grow: 1;
+}
+
+.desktopNoteDetail {
+  flex-grow: 3;
+}

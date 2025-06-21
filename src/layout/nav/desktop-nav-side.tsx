@@ -5,8 +5,8 @@ export default function DesktopNavSide() {
   return (
     <>
       <div className={styles.noteWrapper}>
-        <NavLink to="">All Notes</NavLink>
-        <NavLink to="">Archived Notes</NavLink>
+        <NavLink to="/notes/all">All Notes</NavLink>
+        <NavLink to="/notes/archived">Archived Notes</NavLink>
       </div>
       <section className={styles.tagWrapper}>
         <h3>Tags</h3>
