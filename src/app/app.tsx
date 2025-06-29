@@ -1,8 +1,10 @@
 import { useIsMobile } from "../hooks/use-is-mobile";
+import RootLayoutDesktop from "../layout/root-layout-desktop";
+import RootLayoutMobile from "../layout/root-layout-mobile";
 
 export default function App() {
   const isMobile = useIsMobile();
-  const mobileLayout = <h1>Mobile Layout</h1>;
-  const desktopLayout = <h1>Desktop Layout</h1>;
+  const mobileLayout = <RootLayoutMobile />;
+  const desktopLayout = <RootLayoutDesktop />;
   return <>{isMobile ? mobileLayout : desktopLayout}</>;
 }
