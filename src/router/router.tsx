@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import App from "../app/app";
-import NoteTagListPage from "../pages/note-tag-list-page";
+import NoteListPage from "../pages/note-list-page";
 import NoteContentPage from "../pages/note-content-page";
+import TagListPage from "../pages/tag-list-page";
 
 export const router = createBrowserRouter([
   {
@@ -13,10 +14,19 @@ export const router = createBrowserRouter([
         children: [
           {
             path: ":category",
-            Component: NoteTagListPage,
+            Component: NoteListPage,
             children: [{ path: ":noteId", Component: NoteContentPage }],
           },
         ],
+      },
+      {
+        path: "tags",
+        Component: TagListPage,
+      },
+      {
+        path: "tags/:tagId",
+        Component: NoteListPage,
+        children: [{ path: ":noteId", Component: NoteContentPage }],
       },
     ],
   },
