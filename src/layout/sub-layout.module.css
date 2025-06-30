@@ -1,0 +1,4 @@
+.desktopContainer {
+  display: flex;
+  flex-direction: row;
+}
