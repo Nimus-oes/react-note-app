@@ -17,7 +17,7 @@ export default function TagList() {
   }
 
   const tagList = data?.tags?.map((tag) => (
-    <NavLink to="" key={tag.tagId}>
+    <NavLink to={`/tags/${tag.tagId}`} key={tag.tagId}>
       {tag.tagName}
     </NavLink>
   ));
