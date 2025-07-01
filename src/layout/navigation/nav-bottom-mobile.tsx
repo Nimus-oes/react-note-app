@@ -1,13 +1,14 @@
+import { NavLink } from "react-router";
 import styles from "./nav-bottom-mobile.module.css";
 
 export default function NavBottomMobile() {
   return (
     <div className={styles.container}>
-      <div>Home</div>
-      <div>Search</div>
-      <div>Archived</div>
-      <div>Tags</div>
-      <div>Settings</div>
+      <NavLink to="/notes/all">Home</NavLink>
+      <NavLink to="">Search</NavLink>
+      <NavLink to="/notes/archived">Archived</NavLink>
+      <NavLink to="/tags">Tags</NavLink>
+      <NavLink to="">Settings</NavLink>
     </div>
   );
 }
