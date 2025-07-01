@@ -7,7 +7,7 @@
       "lastModified": "",
       "tags": ["tag002", "tag006"],
       "isArchived": false,
-      "content": ""
+      "content": "To improve React performance, consider memoization using React.memo and useMemo, lazy loading components, and avoiding unnecessary re-renders with proper key usage. Profile with React DevTools for bottlenecks."
     },
     {
       "noteId": "note002",
@@ -16,7 +16,7 @@
       "lastModified": "",
       "tags": ["tag009", "tag005"],
       "isArchived": false,
-      "content": ""
+      "content": "Plan to visit Tokyo, Kyoto, and Osaka. Book JR Pass in advance. Try local ramen shops and book ryokan stays for authentic experiences. Travel in spring for cherry blossoms."
     },
     {
       "noteId": "note003",
@@ -25,7 +25,7 @@
       "lastModified": "",
       "tags": ["tag001", "tag007"],
       "isArchived": false,
-      "content": ""
+      "content": "1. Spaghetti Aglio e Olio: garlic, olive oil, chili flakes.\n2. Creamy Mushroom Fettuccine: heavy cream, parmesan, portobello.\n3. Pesto Penne: fresh basil, pine nuts, olive oil."
     },
     {
       "noteId": "note004",
@@ -34,7 +34,7 @@
       "lastModified": "",
       "tags": ["tag003", "tag004"],
       "isArchived": false,
-      "content": ""
+      "content": "Mon: Upper body strength\nTue: HIIT cardio\nWed: Lower body strength\nThu: Yoga\nFri: Full-body circuit\nSat: Rest or light walk\nSun: Core and flexibility"
     },
     {
       "noteId": "note005",
@@ -43,7 +43,7 @@
       "lastModified": "",
       "tags": ["tag001", "tag004", "tag007"],
       "isArchived": false,
-      "content": ""
+      "content": "1. Grilled chicken with quinoa and steamed veggies.\n2. Overnight oats with berries.\n3. Mason jar salads with chickpeas.\n4. Sweet potato and black bean burritos."
     },
     {
       "noteId": "note006",
@@ -52,7 +52,7 @@
       "lastModified": "",
       "tags": ["tag005", "tag001"],
       "isArchived": false,
-      "content": ""
+      "content": "1. 'Atomic Habits' by James Clear\n2. 'The Pragmatic Programmer' by Hunt & Thomas\n3. 'Kafka on the Shore' by Haruki Murakami\n4. 'Sapiens' by Yuval Noah Harari"
     },
     {
       "noteId": "note007",
@@ -61,7 +61,7 @@
       "lastModified": "",
       "tags": ["tag003", "tag004", "tag005"],
       "isArchived": false,
-      "content": ""
+      "content": "1. Run a half-marathon by September.\n2. Achieve 10 pull-ups unassisted.\n3. Reduce body fat by 5%.\n4. Build a consistent 4-day workout habit.\n5. Track macros weekly."
     },
     {
       "noteId": "note008",
@@ -70,7 +70,7 @@
       "lastModified": "",
       "tags": ["tag002", "tag006", "tag010"],
       "isArchived": true,
-      "content": ""
+      "content": "Steps to migrate:\n1. Rename files to .tsx/.ts.\n2. Add tsconfig.json with strict mode.\n3. Define types for props and states.\n4. Use interfaces instead of propTypes.\n5. Fix type errors incrementally."
     },
     {
       "noteId": "note009",
@@ -79,7 +79,7 @@
       "lastModified": "",
       "tags": ["tag005", "tag008"],
       "isArchived": true,
-      "content": ""
+      "content": "1. Kindle Paperwhite for avid readers\n2. Custom photo album\n3. Scented candle set\n4. Bluetooth earbuds\n5. DIY hot chocolate kit"
     },
     {
       "noteId": "note010",
@@ -88,7 +88,7 @@
       "lastModified": "",
       "tags": ["tag002", "tag006"],
       "isArchived": true,
-      "content": ""
+      "content": "Components to build:\n1. Button with variants and sizes\n2. Modal with accessibility\n3. Tabs and Accordions\n4. Theme switcher\n5. Integration with Storybook for documentation"
     }
   ]
 }
