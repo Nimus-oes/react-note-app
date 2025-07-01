@@ -1,0 +1,94 @@
+{
+  "notes": [
+    {
+      "noteId": "note001",
+      "title": "React Performance Optimization",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag002", "tag006"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note002",
+      "title": "Japan Travel Planning",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag009", "tag005"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note003",
+      "title": "Favorite Pasta Recipes",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag001", "tag007"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note004",
+      "title": "Weekly Workout Plan",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag003", "tag004"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note005",
+      "title": "Meal Prep Ideas",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag001", "tag004", "tag007"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note006",
+      "title": "Reading List",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag005", "tag001"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note007",
+      "title": "Fitness Goals 2025",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag003", "tag004", "tag005"],
+      "isArchived": false,
+      "content": ""
+    },
+    {
+      "noteId": "note008",
+      "title": "TypeScript Migration Guide",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag002", "tag006", "tag010"],
+      "isArchived": true,
+      "content": ""
+    },
+    {
+      "noteId": "note009",
+      "title": "Gift Ideas",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag005", "tag008"],
+      "isArchived": true,
+      "content": ""
+    },
+    {
+      "noteId": "note010",
+      "title": "React Component Library",
+      "createAt": "",
+      "lastModified": "",
+      "tags": ["tag002", "tag006"],
+      "isArchived": true,
+      "content": ""
+    }
+  ]
+}

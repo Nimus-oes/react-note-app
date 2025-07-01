@@ -1,0 +1,81 @@
+{
+  "tags": [
+    {
+      "tagId": "tag001",
+      "tagName": "Cooking",
+      "items": [
+        { "noteId": "note003", "title": "Favorite Pasta Recipes" },
+        { "noteId": "note005", "title": "Meal Prep Ideas" },
+        { "noteId": "note006", "title": "Reading List" }
+      ]
+    },
+    {
+      "tagId": "tag002",
+      "tagName": "Dev",
+      "items": [
+        { "noteId": "note001", "title": "React Performance Optimization" },
+        { "noteId": "note008", "title": "TypeScript Migration Guide" },
+        { "noteId": "note010", "title": "React Component Library" }
+      ]
+    },
+    {
+      "tagId": "tag003",
+      "tagName": "Fitness",
+      "items": [
+        { "noteId": "note004", "title": "Weekly Workout Plan" },
+        { "noteId": "note007", "title": "Fitness Goals 2025" }
+      ]
+    },
+    {
+      "tagId": "tag004",
+      "tagName": "Health",
+      "items": [
+        { "noteId": "note004", "title": "Weekly Workout Plan" },
+        { "noteId": "note005", "title": "Meal Prep Ideas" },
+        { "noteId": "note007", "title": "Fitness Goals 2025" }
+      ]
+    },
+    {
+      "tagId": "tag005",
+      "tagName": "Personal",
+      "items": [
+        { "noteId": "note002", "title": "Japan Travel Planning" },
+        { "noteId": "note006", "title": "Reading List" },
+        { "noteId": "note007", "title": "Fitness Goals 2025" },
+        { "noteId": "note009", "title": "Gift Ideas" }
+      ]
+    },
+    {
+      "tagId": "tag006",
+      "tagName": "React",
+      "items": [
+        { "noteId": "note001", "title": "React Performance Optimization" },
+        { "noteId": "note008", "title": "TypeScript Migration Guide" },
+        { "noteId": "note010", "title": "React Component Library" }
+      ]
+    },
+    {
+      "tagId": "tag007",
+      "tagName": "Recipes",
+      "items": [
+        { "noteId": "note003", "title": "Favorite Pasta Recipes" },
+        { "noteId": "note005", "title": "Meal Prep Ideas" }
+      ]
+    },
+    {
+      "tagId": "tag008",
+      "tagName": "Shopping",
+      "items": [{ "noteId": "note009", "title": "Gift Ideas" }]
+    },
+    {
+      "tagId": "tag009",
+      "tagName": "Travel",
+      "items": [{ "noteId": "note002", "title": "Japan Travel Planning" }]
+    },
+    {
+      "tagId": "tag010",
+      "tagName": "TypeScript",
+      "items": [{ "noteId": "note008", "title": "TypeScript Migration Guide" }]
+    }
+  ]
+}
