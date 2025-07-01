@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightPanelWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomButtonWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileButtonWrapper {
+  display: flex;
+  flex-direction: row;
+}
