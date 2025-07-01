@@ -1,3 +1,4 @@
+import NoteList from "../features/note/note-list";
 import { useIsMobile } from "../hooks/use-is-mobile";
 import SubLayout from "../layout/sub-layout";
 
@@ -6,7 +7,7 @@ export default function NoteListPage() {
 
   const mobileLayout = (
     <>
-      <h1>Note List</h1>
+      <NoteList />
       <div>+</div>
     </>
   );
@@ -14,7 +15,7 @@ export default function NoteListPage() {
   const desktopLayout = (
     <>
       <div>Create New Note</div>
-      <h1>Note List</h1>
+      <NoteList />
     </>
   );
 
