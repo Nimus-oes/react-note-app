@@ -1,30 +1,23 @@
 import { Outlet, useParams } from "react-router";
 import { useIsMobile } from "../hooks/use-is-mobile";
-import styles from "./sub-layout.module.css";
-import usePageTitle from "../hooks/use-page-title";
+import styles from "./index-layout.module.css";
+import IndexPanel from "../pages/index-panel";
 
-// This component is a generic layout for sub options. Any JSX node can be provided to be rendered.
-interface SubOptionProps {
-  subOptions: React.ReactNode;
-}
-
-export default function SubLayout({ subOptions }: SubOptionProps) {
+export default function IndexLayout() {
   const { noteId } = useParams();
   const isMobile = useIsMobile();
-  const pageTitle = usePageTitle();
 
   // If noteId, it means it's a content page which will be rendered through Outlet
   const mobileLayout = noteId ? (
     <Outlet />
   ) : (
     <>
-      <div>{pageTitle}</div>
-      <div>{subOptions}</div>
+      <IndexPanel />
     </>
   );
   const desktopLayout = (
     <div className={styles.desktopContainer}>
-      <div>{subOptions}</div>
+      <IndexPanel />
       <Outlet />
     </div>
   );

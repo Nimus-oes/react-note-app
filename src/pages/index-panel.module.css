@@ -1,0 +1,4 @@
+.noteDesktopContainer {
+  display: flex;
+  flex-direction: column;
+}

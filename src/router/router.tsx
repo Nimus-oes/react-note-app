@@ -1,10 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import App from "../app/app";
-import NoteListPage from "../pages/note-list-page";
-import NoteContentPage from "../pages/note-content-page";
-import TagListPage from "../pages/tag-list-page";
 import Error404Page from "../pages/error-404-page";
 import { validateCategory } from "./valid-route-loader";
+import IndexLayout from "../layout/index-layout";
+import ContentPanel from "../pages/content-panel";
 
 export const router = createBrowserRouter([
   {
@@ -13,24 +12,21 @@ export const router = createBrowserRouter([
     errorElement: <Error404Page />,
     children: [
       {
-        path: "notes",
+        Component: IndexLayout,
         children: [
           {
-            path: ":category",
+            path: "notes/:category",
             loader: validateCategory,
-            Component: NoteListPage,
-            children: [{ path: ":noteId", Component: NoteContentPage }],
+            children: [{ path: ":noteId", Component: ContentPanel }],
+          },
+          {
+            path: "tags",
+          },
+          {
+            path: "tags/:tagId",
+            children: [{ path: ":noteId", Component: ContentPanel }],
           },
         ],
-      },
-      {
-        path: "tags",
-        Component: TagListPage,
-      },
-      {
-        path: "tags/:tagId",
-        Component: NoteListPage,
-        children: [{ path: ":noteId", Component: NoteContentPage }],
       },
     ],
   },

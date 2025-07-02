@@ -1,7 +1,7 @@
 import { useIsMobile } from "../hooks/use-is-mobile";
-import styles from "./note-content-page.module.css";
+import styles from "./content-panel.module.css";
 
-export default function NoteContentPage() {
+export default function ContentPanel() {
   const isMobile = useIsMobile();
 
   const mobileLayout = (
