@@ -19,15 +19,17 @@ react-note-app
 │  ├─ constants.ts
 │  ├─ features
 │  │  ├─ note
-│  │  │  ├─ note-list.module.css
-│  │  │  └─ note-list.tsx
+│  │  │  └─ note-card.tsx
 │  │  └─ tag
-│  │     ├─ tag-list.module.css
-│  │     └─ tag-list.tsx
+│  │     ├─ tag-card.module.css
+│  │     └─ tag-card.tsx
 │  ├─ hooks
 │  │  ├─ use-is-mobile.ts
 │  │  └─ use-page-title.ts
 │  ├─ layout
+│  │  ├─ index-shell-layout.module.css
+│  │  ├─ index-shell-layout.tsx
+│  │  ├─ index-source-layout.tsx
 │  │  ├─ navigation
 │  │  │  ├─ app-header.tsx
 │  │  │  ├─ nav-bottom-mobile.module.css
@@ -36,23 +38,22 @@ react-note-app
 │  │  │  ├─ nav-side-desktop.tsx
 │  │  │  ├─ nav-top-desktop.module.css
 │  │  │  └─ nav-top-desktop.tsx
-│  │  ├─ root-layout-desktop.module.css
-│  │  ├─ root-layout-desktop.tsx
-│  │  ├─ root-layout-mobile.tsx
-│  │  ├─ sub-layout.module.css
-│  │  └─ sub-layout.tsx
+│  │  ├─ root-layout.module.css
+│  │  └─ root-layout.tsx
 │  ├─ pages
+│  │  ├─ content-panel.module.css
+│  │  ├─ content-panel.tsx
 │  │  ├─ error-404-page.tsx
-│  │  ├─ note-content-page.module.css
-│  │  ├─ note-content-page.tsx
-│  │  ├─ note-list-page.tsx
-│  │  └─ tag-list-page.tsx
+│  │  ├─ index-panel.module.css
+│  │  ├─ index-panel.tsx
+│  │  └─ utils
+│  │     ├─ api.ts
+│  │     ├─ use-index-source.ts
+│  │     └─ use-notes-by-filters.ts
 │  ├─ router
 │  │  ├─ router.tsx
 │  │  └─ valid-route-loader.ts
 │  ├─ types.ts
-│  ├─ utils
-│  │  └─ api.ts
 │  └─ vite-env.d.ts
 ├─ tsconfig.app.json
 ├─ tsconfig.json
