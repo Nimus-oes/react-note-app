@@ -1,0 +1,12 @@
+.desktopContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktopIndexPanel {
+  width: 290px;
+}
+
+.desktopContentPanel {
+  flex-grow: 1;
+}

@@ -26,7 +26,7 @@ export default function NavLayoutDesktop() {
         {getSideNavItem("archived")}
         <div>Tags</div>
       </div>
-      <div>
+      <div className={styles.leftWrapper}>
         <div className={styles.topBar}>
           <div>Page Title</div>
           <div className={styles.serachSetting}>
