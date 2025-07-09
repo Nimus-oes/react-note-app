@@ -1,4 +1,4 @@
-export const ROUTES = {
+const ROUTES = {
   HOME: "/",
   NOTES: {
     ALL: {
@@ -19,4 +19,16 @@ export const ROUTES = {
     },
   },
   SETTINGS: "/settings",
+};
+
+export const NAV_OPTIONS = {
+  home: { icon: "🏡", i18nKey: "home", route: ROUTES.NOTES.ALL.LIST },
+  archived: {
+    icon: "📥",
+    i18nKey: "archived",
+    route: ROUTES.NOTES.ARCHIVED.LIST,
+  },
+  search: { icon: "🔍", i18nKey: "search", route: ROUTES.NOTES.SEARCH },
+  tags: { icon: "🔖", i18nKey: "tags", route: ROUTES.TAGS.LIST },
+  settings: { icon: "⚙️", i18nKey: "settings", route: ROUTES.SETTINGS },
 } as const;
