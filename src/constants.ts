@@ -21,14 +21,28 @@ const ROUTES = {
   SETTINGS: "/settings",
 };
 
+export const ICONS = {
+  home: "🏡",
+  archive: "📥",
+  search: "🔍",
+  tag: "🔖",
+  settings: "⚙️",
+  delete: "🗑️",
+  back: "<",
+};
+
 export const NAV_OPTIONS = {
-  home: { icon: "🏡", i18nKey: "home", route: ROUTES.NOTES.ALL.LIST },
+  home: { icon: ICONS.home, i18nKey: "home", route: ROUTES.NOTES.ALL.LIST },
   archived: {
-    icon: "📥",
+    icon: ICONS.archive,
     i18nKey: "archived",
     route: ROUTES.NOTES.ARCHIVED.LIST,
   },
-  search: { icon: "🔍", i18nKey: "search", route: ROUTES.NOTES.SEARCH },
-  tags: { icon: "🔖", i18nKey: "tags", route: ROUTES.TAGS.LIST },
-  settings: { icon: "⚙️", i18nKey: "settings", route: ROUTES.SETTINGS },
+  search: { icon: ICONS.search, i18nKey: "search", route: ROUTES.NOTES.SEARCH },
+  tags: { icon: ICONS.tag, i18nKey: "tags", route: ROUTES.TAGS.LIST },
+  settings: {
+    icon: ICONS.settings,
+    i18nKey: "settings",
+    route: ROUTES.SETTINGS,
+  },
 } as const;
