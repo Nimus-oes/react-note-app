@@ -1,0 +1,12 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.topBar {
+  justify-content: space-between;
+}
+
+.rightSide {
+  width: 100%;
+}
