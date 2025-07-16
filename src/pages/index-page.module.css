@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.indexPanel {
+  width: 290px;
+}
+
+.contentPanel {
+  flex-grow: 1;
+}

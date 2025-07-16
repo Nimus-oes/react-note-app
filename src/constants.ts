@@ -17,4 +17,12 @@ export const ICONS = {
   search: "🔍",
   settings: "⚙️",
   delete: "🗑️",
+  lightTheme: "☀️",
+  darkTheme: "🌙",
+  systemTheme: "⛅️",
+  fontTheme: "T",
+  sansSerif: "𝖲𝖲",
+  serif: "𝗌",
+  monospace: "𝙼𝚘𝚗𝚘",
+  time: "🕓",
 };
